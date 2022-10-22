@@ -30,12 +30,10 @@ function App() {
       setMode('dark');
       document.body.style.backgroundColor = '#010228';
       showAlert('Dark mode has been enabled!','success');
-      document.title = 'TextUtils - Dark Mode';
     }else{
       setMode ('light');
       document.body.style.backgroundColor = 'white';
       showAlert('Light mode has been enabled!','success');
-      document.title = 'TextUtils - light Mode'
     }
   }
 
